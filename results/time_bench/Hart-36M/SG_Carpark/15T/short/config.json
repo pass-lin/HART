@@ -1,0 +1,37 @@
+{
+  "dataset_config": "SG_Carpark/15T/short",
+  "num_series": 354,
+  "num_windows": 42,
+  "num_variates": 1,
+  "prediction_length": 16,
+  "num_quantiles": 9,
+  "quantile_levels": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "freq": "15T",
+  "seasonality": 96,
+  "context_length": 14479,
+  "metric_names": [
+    "MSE",
+    "MAE",
+    "RMSE",
+    "MAPE",
+    "sMAPE",
+    "MASE",
+    "ND",
+    "CRPS"
+  ],
+  "prediction_scale_factor": 1.0,
+  "model_name": "Hart-36M",
+  "patch_size": 16,
+  "max_length": 32768,
+  "frequency_resample": false
+}

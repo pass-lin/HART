@@ -1,0 +1,167 @@
+# ============================
+# 神经网络 / 模型
+# ============================
+*.h5
+*.weights.h5
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.pb
+*.safetensors
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+weights/
+save_weights/
+*.weights
+*.model
+
+# ============================
+# 数据文件
+# ============================
+*.csv
+*.tsv
+*.jsonl
+*.json.gz
+*.arrow
+*.parquet
+*.feather
+*.tfrecord
+*.tfrecords
+*.bin
+*.idx
+*.rec
+*.lst
+*.proto
+
+# ============================
+# 图片 / 可视化
+# ============================
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.webp
+*.svg
+*.ico
+
+# ============================
+# PDF / 文档
+# ============================
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+
+# ============================
+# 日志 / 输出
+# ============================
+*.log
+logs/
+save_logs/
+out/
+output/
+outputs/
+runs/
+runs_*/
+wandb/
+tensorboard/
+tensorboard_logs/
+TIME/
+log/
+fev/
+*.log.*
+*.logs
+
+# ============================
+# 文本文件
+# ============================
+*.txt
+*.md
+!README.md
+!LICENSE
+!CHANGELOG.md
+
+# ============================
+# 性能分析 / 调试
+# ============================
+*.trace
+*.trace.json
+*.trace.json.gz
+*.xplane.pb
+*.pbtxt
+profile/
+profiler/
+jax_profiler/
+*.prof
+*.profile
+
+# ============================
+# 历史 / 缓存
+# ============================
+.history/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.pyc
+
+# ============================
+# 环境 / 依赖
+# ============================
+.env
+.venv/
+venv/
+env/
+conda-env/
+micromamba/
+*.conda
+*.tar.bz2
+*.tar.gz
+*.zip
+
+# ============================
+# 操作系统
+# ============================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ============================
+# 编辑器
+# ============================
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+*.code-workspace
+
+# ============================
+# 其他
+# ============================
+tmp/
+temp/
+*.tmp
+*.temp
+*.pid
+*.seed
+*.bak
+*.backup
+*.npz
