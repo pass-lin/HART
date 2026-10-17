@@ -2,7 +2,7 @@
 
 **Paper:** [HART: Hybrid Attention-RWKV Time series Foundation Model](https://arxiv.org/abs/2610.12883)   
 **Model weights:**  https://www.modelscope.cn/models/q935499957/HART-36M    
-**中文文档:** [README_zh.md](README_zh.md)
+
 
 HART is a time series foundation model (about 36M parameters) that interleaves RWKV-7
 blocks with causal Transformer blocks and outputs quantile forecasts. The released
